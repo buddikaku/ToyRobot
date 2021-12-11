@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraPurple.ToyRobot.UI", "TelstraPurple.ToyRobot.UI\TelstraPurple.ToyRobot.UI.csproj", "{62004B46-DA27-425F-BB8B-96CCBC86120A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraPurple.ToyRobot.Common", "TelstraPurple.ToyRobot.Common\TelstraPurple.ToyRobot.Common.csproj", "{0DDE137D-5F22-4D09-A9D6-E5E06EFB74A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraPurple.ToyRobot.Service", "TelstraPurple.ToyRobot.Service\TelstraPurple.ToyRobot.Service.csproj", "{DBD6DF26-2467-4BA5-ACD6-D880515CBCEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62004B46-DA27-425F-BB8B-96CCBC86120A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62004B46-DA27-425F-BB8B-96CCBC86120A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62004B46-DA27-425F-BB8B-96CCBC86120A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62004B46-DA27-425F-BB8B-96CCBC86120A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDE137D-5F22-4D09-A9D6-E5E06EFB74A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDE137D-5F22-4D09-A9D6-E5E06EFB74A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDE137D-5F22-4D09-A9D6-E5E06EFB74A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDE137D-5F22-4D09-A9D6-E5E06EFB74A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD6DF26-2467-4BA5-ACD6-D880515CBCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD6DF26-2467-4BA5-ACD6-D880515CBCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD6DF26-2467-4BA5-ACD6-D880515CBCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD6DF26-2467-4BA5-ACD6-D880515CBCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8370605-E6E0-4463-B00D-683D600F1CC8}
+	EndGlobalSection
+EndGlobal

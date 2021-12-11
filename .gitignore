@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/TelstraPurple.ToyRobot.Common/bin/Debug/net5.0
+/TelstraPurple.ToyRobot.Common/obj
+/TelstraPurple.ToyRobot.UI/obj
+/TelstraPurple.ToyRobot.UI/bin/Debug/net5.0
+/TelstraPurple.ToyRobot.Service/obj
