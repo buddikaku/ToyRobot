@@ -11,3 +11,5 @@
 /TelstraPurple.ToyRobot.Common/bin/Release/net5.0
 /TelstraPurple.ToyRobot.Service/bin
 /TelstraPurple.ToyRobot.UI/bin/Release/net5.0
+/TelstraPurple.ToyRobot.Test/obj
+/TelstraPurple.ToyRobot.Test/bin/Debug/net5.0
