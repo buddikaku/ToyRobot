@@ -13,6 +13,7 @@ namespace TelstraPurple.ToyRobot.Service
         private int maxX;
         private int minY;
         private int maxY;
+        private string outString;
 
         /// <summary>
         /// X coordinate of tabletop
@@ -48,6 +49,20 @@ namespace TelstraPurple.ToyRobot.Service
         /// Direction of Robot
         /// </summary>
         public Direction Direction { get; set; }
+
+        /// <summary>
+        /// Final robot location
+        /// </summary>
+        public string OutString
+        {
+            get { return this.outString; }
+            set
+            {
+                this.outString = value;
+            }
+        }
+
+
 
         /// <summary>
         /// Get a new instance of a Point

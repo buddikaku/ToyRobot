@@ -7,17 +7,17 @@ namespace TelstraPurple.ToyRobot.Service
     /// </summary>
     public class CommandService : ICommandService
     {
-        private IList<ICommand> commands;
-        private Point point;
+        private IList<ICommand> commandsList;
+        private IPoint point;
 
         /// <summary>
         /// Instantiate the command service
         /// </summary>
         /// <param name="point">Point object</param>
-        public CommandService(Point point)
+        public CommandService(IPoint point)
         {
             this.point = point;
-            this.commands = new List<ICommand>();
+            this.commandsList = new List<ICommand>();
         }
 
         /// <summary>
@@ -26,21 +26,22 @@ namespace TelstraPurple.ToyRobot.Service
         /// <param name="command">Command object</param>
         public void AddCommands(ICommand command)
         {
-            this.commands.Add(command);
+            this.commandsList.Add(command);
         }
 
         /// <summary>
         /// Process commands sequence
         /// </summary>
         /// <returns>Final point of the robot</returns>
-        public Point ProcessCommands()
+        public IPoint ProcessCommands()
         {
-            foreach (var command in this.commands)
+            foreach (var command in this.commandsList)
             {
                 command.Execute(this.point);
             }
 
             return this.point;
         }
+
     }
 }

@@ -1,6 +1,6 @@
 ﻿using TelstraPurple.ToyRobot.Common;
 
-namespace TelstraPurple.ToyRobot.Service.Commands
+namespace TelstraPurple.ToyRobot.Service
 {
     /// <summary>
     /// Right command
@@ -11,7 +11,7 @@ namespace TelstraPurple.ToyRobot.Service.Commands
         /// Execute commands
         /// </summary>
         /// <param name="point">Point object</param>
-        public void Execute(Point point)
+        public void Execute(IPoint point)
         {
             switch (point.Direction)
             {
@@ -28,7 +28,6 @@ namespace TelstraPurple.ToyRobot.Service.Commands
                     point.Direction = Direction.NORTH;
                     break;
             }
-
         }
     }
 }

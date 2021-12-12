@@ -16,6 +16,6 @@ namespace TelstraPurple.ToyRobot.Service
         /// Process commands sequence
         /// </summary>
         /// <returns>Final point of the robot</returns>
-        public Point ProcessCommands();
+        public IPoint ProcessCommands();
     }
 }

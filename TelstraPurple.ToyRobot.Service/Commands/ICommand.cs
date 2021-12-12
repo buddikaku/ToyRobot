@@ -10,6 +10,6 @@ namespace TelstraPurple.ToyRobot.Service
         /// Execute commands
         /// </summary>
         /// <param name="point">Point object</param>
-        public void Execute(Point point);
+        public void Execute(IPoint point);
     }
 }

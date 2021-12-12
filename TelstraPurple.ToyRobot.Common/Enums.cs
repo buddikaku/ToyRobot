@@ -5,9 +5,20 @@
     /// </summary>
     public enum Direction
     {
+        NONE,
         NORTH,
         EAST,
         SOUTH,
         WEST
+    }
+
+
+    public enum Commands
+    {
+        PLACE,
+        MOVE, 
+        LEFT, 
+        RIGHT,
+        REPORT
     }
 }

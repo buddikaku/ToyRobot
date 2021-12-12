@@ -22,5 +22,10 @@ namespace TelstraPurple.ToyRobot.Service
         /// </summary>
         public Direction Direction { get; set; }
 
+        /// <summary>
+        /// Final robot location
+        /// </summary>
+        public string OutString { get; set; }
+
     }
 }

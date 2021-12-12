@@ -8,3 +8,6 @@
 /TelstraPurple.ToyRobot.UI/obj
 /TelstraPurple.ToyRobot.UI/bin/Debug/net5.0
 /TelstraPurple.ToyRobot.Service/obj
+/TelstraPurple.ToyRobot.Common/bin/Release/net5.0
+/TelstraPurple.ToyRobot.Service/bin
+/TelstraPurple.ToyRobot.UI/bin/Release/net5.0

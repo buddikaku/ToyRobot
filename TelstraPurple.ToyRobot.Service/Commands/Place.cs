@@ -11,13 +11,9 @@ namespace TelstraPurple.ToyRobot.Service
         private int y;
         private Direction direction;
 
-        /// <summary>
-        /// Private constructor - to enforce instantiation using parameterize constructor 
-        /// </summary>
-        private Place() { }
 
         /// <summary>
-        /// 
+        /// Instantiate Place
         /// </summary>
         /// <param name="x">X coordinate of tabletop </param>
         /// <param name="y">Y coordinate of tabletop</param>
@@ -26,18 +22,21 @@ namespace TelstraPurple.ToyRobot.Service
         {
             this.x = x;
             this.y = y;
-            this.direction = direction;
+            this.direction = direction;            
         }
 
         /// <summary>
-        /// Execute commands
+        /// Execute command
         /// </summary>
         /// <param name="point">Point object</param>
-        public void Execute(Point point)
+        public void Execute(IPoint point)
         {
             point.X = this.x;
             point.Y = this.y;
-            point.Direction = this.direction;
+            if (this.direction != Direction.NONE)
+            {
+                point.Direction = this.direction;
+            }
         }
     }
 }
